@@ -1,10 +1,10 @@
 %Simulations  with ridge regression
-cd('C:\Dropbox\Projects\Distributed Ridge\Experiments\Experiment 7 - Lambda Gen Cov')
+%cd('C:\Dropbox\Projects\Distributed Ridge\Experiments\Experiment 7 - Lambda Gen Cov')
 n = 3000;
 p = 500;
 alpha = 1;
 gamma = p/n;
-design = 1;
+design = 0;
 switch design
     case 0
         %Design 1: Id
